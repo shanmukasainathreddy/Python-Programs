@@ -1,0 +1,23 @@
+import keyword
+print(keyword.kwlist)
+print(keyword.iskeyword('and'))
+name1='shannu'
+print(name1)
+print(name1[0])
+print(name1[1])
+print(name1[2])
+print(name1[3])
+print(name1[4])
+print(name1[5])
+print(len(name1))
+print(name1[2:6])
+print(name1[::-1])
+print(name1[-7:-2])
+s='python is a high level language'
+print('level' in s)
+print(s[17:22])
+print(s[-31:-25])
+print(s[::-1])
+print(enumerate(name1))
+print(list(enumerate(name1))) 
+print ("ab"+"\b"+"c")
